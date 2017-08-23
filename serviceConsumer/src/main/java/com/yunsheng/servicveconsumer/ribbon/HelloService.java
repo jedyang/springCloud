@@ -11,7 +11,7 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-//    @HystrixCommand(fallbackMethod = "sayErr")
+    @HystrixCommand(fallbackMethod = "sayErr")
     public String sayHello(String name) {
         return restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
     }

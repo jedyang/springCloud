@@ -22,7 +22,3 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-config/.mvn/wrapper/maven-wrapper.properties
-config/.mvn/wrapper/maven-wrapper.jar
-config/mvnw
-config/mvnw.cmd

@@ -1,0 +1,5 @@
+<root>
+    <item name='com.netflix.zuul.constants.ZuulHeaders ZuulHeaders()'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

@@ -3,7 +3,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8764
+#  port: 8764
+  port: 8765
+# 切换端口，启动不同服务
 spring:
   application:
-    name: service-consumer
+#    name: service-ribbon
+    name: service-feign
